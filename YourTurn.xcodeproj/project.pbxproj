@@ -78,6 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6359E89125152485001DE902 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				636AEB3B2512C8440055A476 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6359E8922515248C001DE902 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6359E896251524CA001DE902 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6359E89325152492001DE902 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6359E89425152496001DE902 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		6359E8952515249C001DE902 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				636AEB372512C8440055A476 /* AppDelegate.swift */,
+				636AEB392512C8440055A476 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6359E896251524CA001DE902 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				636AEB3D2512C8440055A476 /* Main.storyboard */,
+				636AEB432512C8470055A476 /* Assets.xcassets */,
+				636AEB452512C8470055A476 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		636AEB2B2512C8440055A476 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +150,11 @@
 		636AEB362512C8440055A476 /* YourTurn */ = {
 			isa = PBXGroup;
 			children = (
-				636AEB372512C8440055A476 /* AppDelegate.swift */,
-				636AEB392512C8440055A476 /* SceneDelegate.swift */,
-				636AEB3B2512C8440055A476 /* ViewController.swift */,
-				636AEB3D2512C8440055A476 /* Main.storyboard */,
-				636AEB432512C8470055A476 /* Assets.xcassets */,
-				636AEB452512C8470055A476 /* LaunchScreen.storyboard */,
+				6359E8952515249C001DE902 /* Resources */,
+				6359E89425152496001DE902 /* ViewModels */,
+				6359E89325152492001DE902 /* Models */,
+				6359E8922515248C001DE902 /* Views */,
+				6359E89125152485001DE902 /* Controllers */,
 				636AEB482512C8470055A476 /* Info.plist */,
 				636AEB402512C8440055A476 /* YourTurn.xcdatamodeld */,
 			);
@@ -440,6 +488,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YourTurn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +506,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = YourTurn/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
